@@ -1,0 +1,170 @@
+:root {
+    --bagk: rgba(255, 144, 14, 0.1);
+    --btn: #FF900E;
+    --tex: #727272;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    background-color: var(--bagk);
+}
+
+/* --------------------------
+
+  -----top seection--------------- */
+.container {
+    margin-top: 26px;
+    width: 100%;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list-item {
+    display: flex;
+    list-style: none;
+
+
+}
+
+.list-item>li {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+.top-contain {
+    padding: 150px 200px;
+
+
+}
+
+.span1 {
+    padding: 0 200px;
+}
+
+.span2 {
+    padding: 0 100px;
+
+}
+
+.text-title {
+    font-weight: 700;
+    font-size: 64px;
+
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--tex);
+    margin-top: 20px;
+    text-transform: capitalize;
+
+
+}
+
+.btn {
+    background-color: var(--btn);
+    margin: 10px 350px;
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: #ffff;
+
+}
+
+.images {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 1050px;
+}
+
+.images>img {
+    width: 1040px;
+    height: 500px;
+
+}
+
+/* main section */
+.main-section {
+    display: flex;
+    margin-top: 26px;
+    width: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+}
+
+.main-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.img-section>img {
+    width: 200px;
+    height: 200px;
+}
+
+.main_text-part {
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 100px;
+
+}
+
+.gry {
+    color: var(--tex);
+}
+
+.block {
+    color: black;
+}
+
+.btn-clr {
+    color: var(--btn);
+}
+
+.text-section {
+    font-size: 16px;
+    color: var(--tex);
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.btn-main {
+    background-color: var(--btn);
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+     color: #ffff;
+     margin-top: 10px;
+}
